@@ -1,0 +1,26 @@
+.container {
+	border-top:1px solid black;
+	border-left:1px solid black;
+}
+
+.container:after {
+	visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+.square {
+	width: 9px;
+	height:9px;
+	float: left;
+
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+}
+
+.square-dec {
+	background-color: orange;
+}
